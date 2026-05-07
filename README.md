@@ -18,6 +18,22 @@ The project focuses on a stable lobby-to-match flow, correct player spawning/own
 
 ---
 
+## Gameplay (Short Description)
+
+The game is a top-down arena match where players try to win either by defeating opponents or by collecting more coins than others. Coins are placed around the map and can be collected during the match. Players also fight using a melee sword attack.
+
+Coins are used for weapon upgrades. Upgrading the sword increases the player’s damage. The first upgrade costs **10 coins** and the second upgrade costs **15 coins**. Even if a player spends coins on upgrades during the match, the final result is still based on the **total number of coins collected** during the match (spent coins are still counted as collected).
+
+Match duration depends on how many players joined:
+- If only **1 player** joined, the match lasts **2 minutes** and ends when the timer runs out.
+- If **2 or more players** joined, the match lasts **3 minutes** and can end earlier if only one player remains alive. If the timer ends while multiple players are still alive, the winner is the player with the **highest total coins collected**.
+
+After the match ends, players can either start a new match (rematch) or return to the main menu.
+
+To make gameplay clear, the game includes animations for the player (idle, running, death) and weapon effects (sword swing and air slash).
+
+---
+
 ## How to Connect Online (LAN / Mobile Hotspot)
 
 This project uses **direct IP connection** (Unity Transport).  
