@@ -38,8 +38,14 @@ Disable firewall for:
 - Private network
 - Public network
 
-> ⚠️ Disabling firewall reduces protection. Use it only for local testing in a trusted environment.
+### Disable Windows Firewall (all 3 profiles)
+1. Press **Win**, type **Windows Security**, open it
+2. Go to **Firewall & network protection**
+3. Open **Domain network** → turn **Microsoft Defender Firewall** **Off**
+4. Go back, open **Private network** → turn it **Off**
+5. Go back, open **Public network** → turn it **Off**
 
+> ⚠️ Disabling firewall reduces protection. Use it only for local testing in a trusted environment.
 
 
 ---
